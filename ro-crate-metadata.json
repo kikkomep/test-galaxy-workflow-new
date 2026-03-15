@@ -21,7 +21,7 @@
         {
             "@id": "./",
             "@type": "Dataset",
-            "datePublished": "2026-03-13T13:32:27+00:00",
+            "datePublished": "2026-03-15T20:18:43+00:00",
             "hasPart": [
                 {
                     "@id": "my-workflow.ga"
@@ -43,10 +43,11 @@
             },
             "mentions": [
                 {
-                    "@id": "#60526cba-8b80-4c72-b6bf-4d3884ff8c20"
+                    "@id": "#3dad6d62-d115-433b-ab69-ab7a94b2960c"
                 }
             ],
-            "name": "MyWorkflow"
+            "name": "MyWorkflow",
+            "description": "MyWorkflow description"
         },
         {
             "@id": "ro-crate-metadata.json",
@@ -89,14 +90,14 @@
             }
         },
         {
-            "@id": "#60526cba-8b80-4c72-b6bf-4d3884ff8c20",
+            "@id": "#3dad6d62-d115-433b-ab69-ab7a94b2960c",
             "@type": "TestSuite",
             "definition": {
                 "@id": "my-workflow-test.yml"
             },
             "instance": [
                 {
-                    "@id": "#5a93e266-a7ed-4074-bee7-12040965bb0e"
+                    "@id": "#2417cdcd-22c8-4857-a3f2-086dda5e5129"
                 }
             ],
             "mainEntity": {
@@ -105,7 +106,7 @@
             "name": "Test suite for MyWorkflow"
         },
         {
-            "@id": "#5a93e266-a7ed-4074-bee7-12040965bb0e",
+            "@id": "#2417cdcd-22c8-4857-a3f2-086dda5e5129",
             "@type": "TestInstance",
             "name": "GitHub Actions workflow for testing MyWorkflow",
             "resource": "repos/kikkomep/test-galaxy-wf/actions/workflows/main.yml",
@@ -130,7 +131,8 @@
             ],
             "conformsTo": {
                 "@id": "https://w3id.org/ro/terms/test#PlanemoEngine"
-            }
+            },
+            "engineVersion": "0.7.0"
         },
         {
             "@id": "https://w3id.org/ro/terms/test#PlanemoEngine",
