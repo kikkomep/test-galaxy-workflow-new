@@ -36,7 +36,7 @@
                     "@id": "README.md"
                 }
             ],
-            "isBasedOn": "https://github.com/kikkomep/test-galaxy-wf",
+            "isBasedOn": "https://github.com/kikkomep/test-galaxy-workflow-new",
             "license": "MIT",
             "mainEntity": {
                 "@id": "my-workflow.ga"
@@ -109,7 +109,7 @@
             "@id": "#2417cdcd-22c8-4857-a3f2-086dda5e5129",
             "@type": "TestInstance",
             "name": "GitHub Actions workflow for testing MyWorkflow",
-            "resource": "repos/kikkomep/test-galaxy-wf/actions/workflows/main.yml",
+            "resource": "repos/kikkomep/test-galaxy-workflow-new/actions/workflows/main.yml",
             "runsOn": {
                 "@id": "https://w3id.org/ro/terms/test#GithubService"
             },
